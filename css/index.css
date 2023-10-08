@@ -1,0 +1,342 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+ }
+ ul li{list-style: none;}
+.navbar{padding: 20px 130px 10px 130px !important;
+background-color: rgba(0, 0, 0,0.5);}
+ .home{text-decoration: underline;}
+ .logo{
+       font-size: 18px;
+      font-weight: 800;}
+ .navs a {
+    color: white;
+ }
+ 
+ .nav-link {
+    font-size: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+ }
+ 
+ /* end.nav */
+ header{background-image: url(../imgs/bg.jpg);
+height: 100vh;
+background-size: cover;
+position: relative;
+}
+.layer {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.6);
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.professional{color: white;}
+h5{    font-size: 50px;
+   font-weight: 800;
+   margin-bottom: 10px;}
+/* .professional h1{font-weight: 200;} */
+.professional h1::after {
+   content: "";
+   animation-name: singer;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
+}
+/* larry Daniels
+ */
+@keyframes singer {
+   0%{content:'D|'}
+   1%{content:'De|'}
+   2%{content:'Dev|'}
+   3%{content:'Deve|'}
+   4%{content:'Devel|'}
+   5%{content:'Develo|'}
+   6%{content:'Develop|'}
+   7%{content:'Develope|'}
+   15%{content:'Developer|'}
+   16%{content:'Develope|'}
+   17%{content:'Develop|'}
+   18%{content:'Develo|'}
+   19%{content:'Devel|'}
+   20%{content:'Deve|'}
+   21%{content:'Dev|'}
+   22%{content:'De|'}
+   23%{content:'D|'}
+   24%{content:'|'}
+   25%{content:'D|'}
+   26%{content:'De|'}
+   27%{content:'Des|'}
+   32%{content:'Desi|'}
+   33%{content:'Desig|'}
+   34%{content:'Design|'}
+   35%{content:'Designe|'}
+   36%{content:'Designer|'}
+   37%{content:'Designe|'}
+   38%{content:'Design|'}
+   39%{content:'Desig|'}
+   40%{content:'Desi|'}
+   45%{content:'Des|'}
+   46%{content:'De|'}
+   47%{content:'D|'}
+   48%{content:'|'}
+   49%{content:'l|'}
+   50%{content:'la|'}
+   51%{content:'lar|'}
+   52%{content:'larr|'}
+   53%{content:'larry|'}
+   54%{content:'larry D|'}
+   60%{content:'larry Da|'}
+   62%{content:'larry Dan|'}
+   63%{content:'larry Dani|'}
+   64%{content:'larry Danie|'}
+   65%{content:'larry Daniel|'}
+   66%{content:'larry Daniels|'}
+   67%{content:'larry Daniel|'}
+   68%{content:'larry Danie|'}
+   69%{content:'larry Dani|'}
+   70%{content:'larry Dan|'}
+   73%{content:'larry Da|'}
+   74%{content:'larry D|'}
+   75%{content:'larry|'}
+   76%{content:'larr|'}
+   77%{content:'lar|'}
+   79%{content:'la|'}
+   80%{content:'l|'}
+   81%{content:'|'}
+}
+
+.icons div{
+   width: 30px;
+   height: 30px;
+   line-height: 35px;
+   border-radius: 50%;
+   background: rgba(0, 0, 0, 0.5);
+   margin-left: 1.5rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+  
+}
+
+ /* end header */
+.section-1 b{    font-weight: bold; color: #748182;
+font-size: 15px;}
+.section-1 .btn-1{color:#fff;background-color: #000;transition: all 0.8s;}
+.section-1 .btn-1:hover{color: #000;background-color: white;border: 1px solid black;}
+.section-1 .btn-2{color: #000;transition: all 0.8s;}
+.section-1 .btn-2:hover{color: #fff;background-color: black;}
+/* end section-1 */
+.section-2 {
+   background-color: #f5f5f5;
+}
+.section-2 .paragraf{color: #8A8582;}
+.spacing {
+   background-color: #f5f5f5;
+   padding: 0 15px 30px 15px;
+}
+
+.spacing h4 {
+   word-spacing: 1px;
+}
+
+.Services {
+   margin: auto;
+}
+
+.Services h2 {
+   font-size: 2.5rem;
+   font-weight: bolder;
+}
+
+.Services h3{    font-weight: 900;
+   font-size: 40px;}
+
+
+.web {
+   box-shadow: -1px 5px 14px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.icon-box {
+   background-color: #F7F7F7;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.8s;
+}
+
+.icon-box i {
+   font-size: 25px;
+   transition: all 0.8;
+}
+.spacing:hover .icon-box{background-color: black;}
+.spacing:hover i{color: white;}
+
+
+               /* end section-2 */
+
+
+.images:hover img{transform: scale(1,1)!important;}
+.section-3 ul li {
+   display: inline-block; 
+   font-weight: bolder;
+   margin: 0 12px;
+   font-size: 18px;
+   cursor: pointer;
+}
+.section-3 .chang{border-bottom: 3px solid black;}
+.section-3 .layar{background-color: rgba(255, 255, 255, 0.9);
+width: 95%;
+height: 95%;
+top: 7px;
+left: 8px;
+transition: all 0.7s;
+opacity: 0;
+
+}
+.images:hover .layar{
+   opacity: 1;
+}
+.section-3 h3{    font-weight: 900;
+   font-size: 40px;}
+   .section-3 .icons{background-color: #1C1C1C;
+      margin: 0 2px;
+      border-radius: 50%;
+      width: 30px;
+     height: 30px;
+     display: flex; 
+     justify-content: center; 
+     align-items: center;
+  transition: all 1s;
+  }
+  
+   .section-3 .icons i{color: white;transition: all 0.8s;}
+   .section-3 .icons:hover{background-color: white; border: 1px solid black;}
+   .section-3 .icons:hover i{color: #1C1C1C;}
+ /* end section-3  */
+
+ .section-4{height: 90vh;background-color: #F7F7F7;
+   background-attachment: fixed;
+   background-position: center center;
+   position: relative;
+   }
+   .section-4 .paragraf{color: #AEB5B5;font-size: 16px;font-weight: 500;}
+   .section-4 h3{ 
+      font-weight: 900;
+      font-size: 40px;}
+   .carousel-indicators button
+   {
+       border-radius: 50%;
+       height: 12px !important;
+       width: 12px !important;
+     
+   }
+  
+   .poll{width: 100px;
+   height: 100px;
+   }
+   .section-4 p{color: #748182;}
+   .section-4 h6{color: #333131;}
+ .powder{background-color: #333131 !important;}
+ 
+ /* end section-4  */
+
+.secation-5 p{color:#748182 !important;}
+  /* end section-5  */
+
+  .section-6 {
+   background-color: #e7e7e7;
+ }
+ .section-6 h2,
+ .section-7 h2 {
+   font-size: 40px !important;
+ }
+ .image-caption {
+   background-color: #5b5b5b;
+   border-radius: 0px 0px 10px 10px;
+ }
+ 
+ .images {
+   overflow: hidden;
+ }
+ 
+ .images img {
+   transition: all 1s;
+ }
+ 
+ .web:hover .images img {
+   transform: scale(1.2, 1.2);
+
+ }
+ .web:hover .images .layar{opacity: 1;}
+ 
+ .section-6 .layar {
+   background-color: rgba(255, 255, 255, 0.9);
+   width: 95%;
+   height: 95%;
+   top: 7px;
+   left: 7px;
+   transition: all 0.7s;
+   opacity: 0;
+ }
+ .images:hover .layar {
+   opacity: 1;
+ }
+ 
+ .section-6 h2{font-size: 40px !important;
+font-weight: 900!important;}
+ .section-6 .icons{background-color: #1C1C1C;
+   margin: 0 2px;
+   border-radius: 50%;
+   width: 30px;
+  height: 30px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+transition: all 1s;
+}
+
+.section-6 .icons i{color: white;transition: all 0.8s; font-size: 14px; margin: 0 5px;
+   cursor: pointer;}
+.section-6 .icons:hover{background-color: white; border: 1px solid black;}
+.section-6 .icons:hover i{color: #1C1C1C;}
+ /* End Section-6 */
+
+/* Start Section-7 */
+.section-7 h2{font-size: 40px !important;
+   font-weight: 900!important;}
+.section-7 i {
+   font-size: 32px;
+   background-color: rgb(236, 236, 236);
+   border-radius: 50%;
+   padding: 20px;
+   transition: all 0.8s;
+ }
+ .section-7 button {
+   width: 140px;
+   transition: all 1s ease;
+ }
+ .section-7 button:hover {
+   color: black;
+   border: 1px solid black;
+   background-color: white;
+ }
+ .section-7 input,.section-7 textarea{background-color: #F4F4F4;border: none;}
+.section-7 i:hover{color: white;background-color:#1C1C1C}
+ 
+ /* End Section-7 */
+ 
+ /* Start footer */
+ footer{background-color: #1C1C1C}
+ footer p {color: #979797;}
+ /* End Footer */
+ 
+   
